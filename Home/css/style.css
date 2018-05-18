@@ -1,0 +1,202 @@
+body{
+    background-image: url("../images/muted-dark-background.png");
+}
+.left, .right {
+    float: left;
+    width: 20%; /* The width is 20%, by default */
+  }
+  
+  .main {
+    float: left;
+    width: 60%; /* The width is 60%, by default */
+  }
+  
+  /* Use a media query to add a breakpoint at 800px: */
+  @media screen and (max-width: 800px) {
+    .left, .main, .right {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }
+
+.navbar-nav {
+    display: inline-block;
+    justify-content: around;
+    
+ }
+ .parallax {
+    /* The image used */
+    background-image: url("https://pbp1995.github.io/MJT/Exhibits/images/Parallax-3.png");
+
+    /* Set a specific height */
+    min-height: 450px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;       
+}
+
+.navbar-nav > li {
+    float:none;
+    display:table-cell;
+    text-align:center;
+}
+
+.nav-item {
+    font-size: 20px;
+    font-family: 'Libre Baskerville', serif;
+    padding-right: 45px;
+    padding-left: 45px;
+}
+
+.navbar-brand {
+    font-size: 20px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.dropdown-menu {
+    background-color: #212529 ;
+}
+
+.dropdown-item{
+    color:#ffff ;
+}
+
+.card{
+    background-color: black;
+    color: white ;
+}
+
+.card-body{
+    background-color: #212529;
+}
+.jumbotron{
+    background-color: #212529;
+    color:white;
+    font-family: 'Libre Baskerville', serif;
+    margin-bottom: 0rem;
+}
+
+.display-4{
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+}
+
+.parallax-2 {
+    /* The image used */
+    background-image: url("https://pbp1995.github.io/MJT/Exhibits/images/Parallax-2.png");
+
+    /* Set a specific height */
+    min-height: 450px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;       
+}
+
+.parallax-3 {
+    /* The image used */
+    background-image: url("https://pbp1995.github.io/MJT/Exhibits/images/Parallax-3.png");
+
+    /* Set a specific height */
+    min-height: 450px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;       
+}
+
+ul {
+    list-style-type: none;
+  }
+
+.row {
+    background-color: #212529;
+    color: white;
+}
+
+.col-sm-4{
+    margin-top: 70px;
+}
+
+.col-md-4{
+    margin-top: 25px;
+}
+
+.card-text-quote{
+    color: black;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Meie Script', cursive;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.jumbotron-2 {
+    margin-bottom: 0px;
+    background-image: url("../images/sevendwarves.png");
+    background-position: 0%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 440px;
+    padding-right: 20px;
+}
+
+.h1{
+    padding-right: 30px; 
+    text-align: right;
+}
+
+.display-4{
+    text-align: right;
+    color: whitesmoke;
+}
+
+.lead{
+    text-align: right;
+    margin-right: 20px;
+    font-size: 30px;
+    font-family: 'Merriweather', serif;
+    color: whitesmoke;
+}
+
+.card-deck{
+    vertical-align: 50%;
+}
+
+.card-text-quote-2{
+    color: black;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Meie Script', cursive;
+}
+
+.card-text-quote-3{
+    color: black;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Meie Script', cursive;
+}
+
+.col p-2 m-0{
+    width: 60%;
+}
+
+.card-title{
+    font-family: 'Merriweather', serif;
+}
+
+.card-text{
+    font-family: 'Libre Baskerville', serif;
+}

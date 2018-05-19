@@ -65,11 +65,11 @@ body{
 
 .card{
     background-color: black;
-    color: white ;
+    color: black ;
 }
 
 .card-body{
-    background-color: #212529;
+    background-color: whitesmoke;
 }
 .jumbotron{
     background-color: #212529;
@@ -115,9 +115,16 @@ ul {
     list-style-type: none;
   }
 
+
 .row {
-    background-color: #212529;
+    background-color: transparent;
     color: white;
+}
+
+.col-sm-6{
+    background-color: whitesmoke!important;
+    color: black;
+    font-family: 'Merriweather', serif;
 }
 
 .col-sm-4{
@@ -150,11 +157,16 @@ ul {
     background-repeat: no-repeat;
     height: 440px;
     padding-right: 20px;
+    width: 100%;
+    height: auto;
 }
 
-.h1{
-    padding-right: 30px; 
-    text-align: right;
+.header{
+    padding-left: 30px; 
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: whitesmoke;
+    font-size: 72px;
 }
 
 .display-4{
@@ -195,8 +207,41 @@ ul {
 
 .card-title{
     font-family: 'Merriweather', serif;
+    color: black;
 }
 
 .card-text{
     font-family: 'Libre Baskerville', serif;
+    color: black; 
+}
+
+.card-img-overlay{
+    font-family: 'Libre Baskerville', serif;
+}
+
+.card-w-50{
+    padding-right: 500px;
+}
+
+.card-img-top{
+    width: 100%;
+    height: auto;
+}
+
+.background{
+    background: transparent !important;
+}
+
+.type{
+ font-family: 'Libre Baskerville', serif;   
+ line-height: 20px;
+}
+
+.small-container{
+    padding-top: 20px;
+}
+
+#footer{
+    background-color: #212529;
+    color: white;
 }

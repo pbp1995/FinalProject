@@ -50,11 +50,13 @@ navbar-nav {
 }
 
 .card-body{
-    background-color: #212529;
+    background-color: white;
+    color: black;
 }
+
 .jumbotron{
     background-color: #212529;
-    color:white;
+    color: white;
     font-family: 'Libre Baskerville', serif;
     margin-bottom: 0rem;
 }
@@ -107,4 +109,16 @@ ul {
 
 .col-md-4{
     margin-top: 25px;
+}
+
+.card-title{
+    font-family: 'Merriweather', serif;
+}
+
+.card-text{
+    font-family: 'Libre Baskerville', serif;
+}
+
+.card-img-top{
+    background: transparent;
 }
